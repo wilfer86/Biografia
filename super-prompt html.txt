@@ -1,0 +1,98 @@
+hola Deep, tengo una carpeta y dentro tengo 4 archivos; Index.html, styles.css, foto.jpg y Sonríe, ciudadano.mp4.
+quiero ubicar la letra "
+Sonríe, ciudadano
+Verso 1
+En el noventa y cuatro gritaban "¡resiste!"
+Ahora todos aceptan el terms and conditions twist.
+El vecino calla, el jefe sonríe,
+y el influencer llora... ¡pero en modo suscribe!
+
+Verso 2
+Nos lavan la lengua con jabón virtual,
+si dices la verdad, te tildan de "antisocial".
+Ya no hay peleas ni gritos en la calle,
+solo emojis y filtros... que nadie falle.
+
+Verso 3
+El que levanta la voz... lo cancelan,
+y el que pregunta de más... lo deletrean.
+Privacidad es un mito tan viejo,
+como pensar que hay justicia... sin consejo.
+
+Pre-Coro
+Pero todo está bien, ¡así debe ser!
+No pienses muy fuerte, no vayas a ofender.
+Activa el GPS, acepta la app,
+y no te olvides de sonreír para el scan.
+
+Coro
+🎶 Sonríe, ciudadano, no hagas preguntas,
+la ley te protege... de ti mismo en puntas.
+No corras, no grites, no protestes jamás,
+que el algoritmo te va a abrazar.
+🎶 Sonríe, ciudadano, haz lo correcto,
+la moral de la máquina es el nuevo intelecto.
+Si algo te duele, mejor ni lo digas...
+¡El sistema ya sabe cómo lo mitigas! 🎶
+
+Verso 4
+Tenés mil amigos pero nadie en tu sala,
+y si el mundo se apaga... ¿Quién se instala?
+Nos venden pastillas de calma en reels,
+y el manual de la vida... está en threads y en gifs.
+
+Puente
+🎤 Y si soñás con gritar,
+te dan una app pa’ meditar.
+Y si querés marchar,
+te dan un sticker pa’ publicar.
+No seas rebelde, no seas vulgar,
+que todo está bien… mientras no digas mal.
+
+Coro final
+🎶 Sonríe, ciudadano, baja la mirada,
+el control se volvió una dulce almohada.
+Si te rebelás, serás reportado…
+pero con cariño, como un buen soldado. 🎶
+🎶 Sonríe, ciudadano, todo está listo,
+el futuro es suave… y sin libre albedrío.
+Gracias por no pensar, por no reclamar…
+el sistema agradece tu modo ejemplar. 🎶"
+de una canción al lado derecho del video, ya que el video es la canción y debe tener formato 9:16 y tapado por una imagen que se llama ciudadano.webp, pero debe sonar automáticamente la persona entra al sitio, también tengo fondo.webp que quiero de fondo de la pagina después debe aparecer la siguiente información: 
+
+Wilfer Rodríguez
+Filosofía Cínica / Compositor de música AI / Creador de contenido
+
+Sobre mí
+Soy un creador de contenido multidisciplinario que mezcla humor, crítica social y narrativa histórica en formatos audiovisuales diseñados para plataformas como Tiktok y YouTube. Con proyectos como Historias de Civilización, he explorado desde las raíces de las civilizaciones antiguas hasta los dilemas modernos, llevando el conocimiento a nuevas audiencias a través de narrativas ágiles y visuales impactantes. Desde Filosofía Cínica, canal donde cuestiono con sarcasmo las estructuras del mundo actual, también produzco música con alto contenido irónico, fusionando géneros como el electro-rock, el reguetón sarcástico o los sonidos distópicos. Mi otro espacio, Arte Diverso, celebro la comedia sin etiquetas. A través de memes, sketches y cápsulas educativas, Convierto la ironía y el pensamiento crítico en herramientas para reflexionar, reír y resistir.
+
+Experiencia
+Tiktoker: Haciendo contenido que nadie pidió pero todos necesitaban.
+Diseñador HTML: Sin backend, sin permisos, pero con estilo.
+Contacto
+Email: rodriguezsuarezw@gmail.com
+
+Redes: 
+
+YouTube:
+(todos los nombres deben aparecer en botones semitransparentes dorados)
+
+-"Arte Diverso" debe ser dirigido a la url: https://www.youtube.com/@melen6019
+-"Filosofía cínica" debe ser dirigido a la url:
+https://www.youtube.com/@mestizoorgulloso
+-"Historias de civilización" debe ser dirigido a la url:
+https://www.youtube.com/@historiascivi
+
+Tiktok:
+(todos los nombres deben aparecer en botones semitransparentes dorados)
+
+-"Arte Diverso" debe ser dirigido a la url: https://www.tiktok.com/@melen6019
+-"Filosofía cínica" debe ser dirigido a la url:
+https://www.tiktok.com/@mestizoorgulloso
+-"Historias de civilización" debe ser dirigido a la url:
+https://www.tiktok.com/@historias.de.civi
+recuerda que solo tenemos dos códigos de programación HTML y css, ningún otro que sea responsivo. también en el footer debe ser así:
+<footer>
+      <p>¿Te gustó? Invítame un café ☕ — qui debe finalizar la imagen foto.jpg de 50px*50px <a href="https://ko-fi.com">ko-fi.com/@wilferrodriguez</a></p>
+    </footer>
+recuerda darme cada código aparte

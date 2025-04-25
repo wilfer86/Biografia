@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('fondo.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.video-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.video-container {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+  aspect-ratio: 9/16;
+}
+
+.video-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.video-overlay video {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.video-overlay-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.lyrics-container {
+  flex: 1;
+  min-width: 300px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.lyrics-container h2 {
+  margin-top: 0;
+  color: gold;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.lyrics-content {
+  font-size: 0.9em;
+}
+
+.lyrics-content p {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.lyrics-content strong {
+  color: gold;
+  font-size: 1.1em;
+}
+
+.info-section {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.info-section h1 {
+  color: gold;
+  margin-top: 0;
+  font-size: 2.2em;
+}
+
+.info-section h2 {
+  color: #ccc;
+  font-size: 1.2em;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.about-section, .experience-section, .contact-section {
+  margin-bottom: 30px;
+}
+
+.about-section h3, .experience-section h3, .contact-section h3 {
+  color: gold;
+  border-bottom: 1px solid gold;
+  padding-bottom: 5px;
+}
+
+.social-buttons {
+  margin-bottom: 20px;
+}
+
+.social-buttons h5 {
+  margin-bottom: 10px;
+  color: gold;
+}
+
+.gold-button {
+  display: inline-block;
+  background-color: rgba(218, 165, 32, 0.5);
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.gold-button:hover {
+  background-color: rgba(218, 165, 32, 0.8);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+footer p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.footer-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+footer a {
+  color: gold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .video-section {
+      flex-direction: column;
+  }
+  
+  .video-container, .lyrics-container {
+      width: 100%;
+  }
+  
+  .lyrics-container {
+      max-height: none;
+  }
+  
+  footer p {
+      flex-direction: column;
+  }
+}
