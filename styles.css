@@ -1,0 +1,248 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+
+/* Variables de color */
+:root {
+    --futurist-blue: #00f2ff;
+    --futurist-purple: #b300ff;
+    --dark-bg: #0a0a12;
+    --darker-bg: #050508;
+    --card-bg: #121220;
+    --text-light: #e0e0ff;
+    --text-lighter: #ffffff;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Tahoma', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: var(--dark-bg);
+    color: var(--text-light);
+    background-image: 
+        radial-gradient(circle at 25% 25%, rgba(0, 242, 255, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(179, 0, 255, 0.1) 0%, transparent 50%);
+    min-height: 100vh;
+}
+
+.audio-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: var(--card-bg);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 
+        0 0 15px rgba(0, 242, 255, 0.3),
+        0 0 30px rgba(179, 0, 255, 0.2);
+    border: 1px solid rgba(0, 242, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.audio-container::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, var(--futurist-blue), var(--futurist-purple));
+    z-index: -1;
+    border-radius: 16px;
+    opacity: 0.7;
+    animation: borderGlow 4s linear infinite;
+}
+
+@keyframes borderGlow {
+    0% { filter: blur(5px); opacity: 0.3; }
+    50% { filter: blur(7px); opacity: 0.5; }
+    100% { filter: blur(5px); opacity: 0.3; }
+}
+
+/* Estilos del título */
+h1 {
+    font-family: 'Chicle', cursive;
+    text-align: center;
+    color: var(--text-lighter);
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    text-shadow: 
+        0 0 10px var(--futurist-blue),
+        0 0 20px var(--futurist-purple);
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(to right, var(--futurist-blue), var(--futurist-purple));
+    margin: 10px auto;
+    border-radius: 3px;
+}
+
+/* Estilos de los items de audio */
+.audio-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background-color: rgba(20, 20, 40, 0.5);
+    border: 1px solid rgba(0, 242, 255, 0.1);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.audio-item:hover {
+    background-color: rgba(30, 30, 60, 0.7);
+    transform: translateY(-3px);
+    box-shadow: 
+        0 5px 15px rgba(0, 242, 255, 0.2),
+        0 3px 10px rgba(179, 0, 255, 0.2);
+    border-color: rgba(0, 242, 255, 0.3);
+}
+
+.audio-icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 5px var(--futurist-blue));
+}
+
+.audio-icon:hover {
+    transform: scale(1.1) rotate(5deg);
+    filter: drop-shadow(0 0 10px var(--futurist-purple));
+}
+
+.audio-name {
+    margin-left: 20px;
+    font-size: 16px;
+    color: var(--text-light);
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.audio-item:hover .audio-name {
+    color: var(--text-lighter);
+    text-shadow: 0 0 8px rgba(179, 0, 255, 0.5);
+}
+
+/* Efecto de carga futurista */
+@keyframes pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+}
+
+.loading-effect {
+    animation: pulse 2s infinite ease-in-out;
+}
+.info-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .info-section h1 {
+    color: gold;
+    margin-top: 0;
+    font-size: 2.2em;
+  }
+  
+  .info-section h2 {
+    color: #ccc;
+    font-size: 1.2em;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section, .experience-section, .contact-section {
+    margin-bottom: 30px;
+  }
+  
+  .about-section h3, .experience-section h3, .contact-section h3 {
+    color: gold;
+    border-bottom: 1px solid gold;
+    padding-bottom: 5px;
+  }
+  
+  .social-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .social-buttons h5 {
+    margin-bottom: 10px;
+    color: gold;
+  }
+  
+  .gold-button {
+    display: inline-block;
+    background-color: rgba(218, 165, 32, 0.5);
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .gold-button:hover {
+    background-color: rgba(218, 165, 32, 0.8);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  footer a {
+    color: gold;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .video-section {
+        flex-direction: column;
+    }
+    
+    .video-container, .lyrics-container {
+        width: 100%;
+    }
+    
+    .lyrics-container {
+        max-height: none;
+    }
+    
+    footer p {
+        flex-direction: column;
+    }
+  }

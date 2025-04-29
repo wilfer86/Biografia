@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letras Wilfer Rodriguez</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="audio-container">
+        <h1>Cada canción, 
+        un recuerdo con amor
+    </h1>
+    (presiona sobre la imagen para escuchar el audio)
+        
+        <div class="audio-item">
+            <img src="doña flor.png" alt="Reproducir" class="audio-icon" onclick="playAudio('audio1', 'Doña Flor.mp3')">
+            <span class="audio-name">Doña Flor</span>
+            <audio id="audio1" src="Doña Flor.mp3"></audio>
+        </div>
+        
+        <div class="audio-item">
+            <img src="Tirra prestada.png" alt="Reproducir" class="audio-icon" onclick="playAudio('audio2', 'Tirra prestada.mp3')">
+            <span class="audio-name">Tirra prestada</span>
+            <audio id="audio2" src="Tirra prestada.mp3"></audio>
+        </div>
+        
+        <div class="audio-item">
+            <img src="La mona.png" alt="Reproducir" class="audio-icon" onclick="playAudio('audio3', 'La mona.mp3')">
+            <span class="audio-name">La mona</span>
+            <audio id="audio3" src="La mona.mp3"></audio>
+        </div>
+        
+        <div class="audio-item">
+            <img src="Claudia.png" alt="Reproducir" class="audio-icon" onclick="playAudio('audio4', 'Claudia.mp3')">
+            <span class="audio-name">Claudia</span>
+            <audio id="audio4" src="Claudia.mp3"></audio>
+        </div>
+        
+        <div class="audio-item">
+            <img src="Maria Angel.png" alt="Reproducir" class="audio-icon" onclick="playAudio('audio5', 'Maria Angel.mp3')">
+            <span class="audio-name">Maria Angel</span>
+            <audio id="audio5" src="Maria Angel.mp3"></audio>
+        </div>
+        
+        <div class="audio-item">
+            <img src="Yenny mi ancla.png" alt="Reproducir" class="audio-icon" onclick="playAudio('audio6', 'Yenny mi ancla.mp3')">
+            <span class="audio-name">Yenny mi ancla</span>
+            <audio id="audio6" src="Yenny mi ancla.mp3"></audio>
+        </div>
+        
+        <div class="audio-item">
+            <img src="Cosuelo, temple de acero.png" alt="Reproducir" class="audio-icon" onclick="playAudio('audio7', 'Cosuelo, temple de acero.mp3')">
+            <span class="audio-name">Cosuelo, temple de acero</span>
+            <audio id="audio7" src="Cosuelo, temple de acero.mp3"></audio>
+        </div>
+    </div>
+
+    <script>
+        function playAudio(audioId, audioName) {
+            // Pausar todos los audios primero
+            document.querySelectorAll('audio').forEach(audio => {
+                audio.pause();
+                audio.currentTime = 0;
+            });
+            
+            // Reproducir el audio seleccionado
+            const audio = document.getElementById(audioId);
+            audio.play();
+            
+            // Opcional: Mostrar qué audio se está reproduciendo
+            console.log("Reproduciendo: " + audioName);
+        }
+    </script>
+        <div class="info-section">
+            <h1>Wilfer Rodríguez</h1>
+            <h2>Filosofía Cínica / Compositor de música AI / Creador de contenido</h2>
+
+            <div class="about-section">
+                <h3>Sobre mí</h3>
+                <p>Soy un creador de contenido multidisciplinario que mezcla humor, crítica social y narrativa histórica en formatos audiovisuales diseñados para plataformas como Tiktok y YouTube. Con proyectos como Historias de Civilización, he explorado desde las raíces de las civilizaciones antiguas hasta los dilemas modernos, llevando el conocimiento a nuevas audiencias a través de narrativas ágiles y visuales impactantes. Desde Filosofía Cínica, canal donde cuestiono con sarcasmo las estructuras del mundo actual, también produzco música con alto contenido irónico, fusionando géneros como el electro-rock, el reguetón sarcástico o los sonidos distópicos. Mi otro espacio, Arte Diverso, celebro la comedia sin etiquetas. A través de memes, sketches y cápsulas educativas, Convierto la ironía y el pensamiento crítico en herramientas para reflexionar, reír y resistir.</p>
+            </div>
+
+            <div class="experience-section">
+                <h3>Experiencia</h3>
+                <p><strong>Tiktoker:</strong> Haciendo contenido que nadie pidió pero todos necesitaban.</p>
+                <p><strong>Diseñador HTML:</strong> Sin backend, sin permisos, pero con estilo.</p>
+            </div>
+
+            <div class="contact-section">
+                <h3>Contacto</h3>
+                !Creo canciones a partir de tus recuerdos y doy el ritmo que quieras¡
+                <p>Email: rodriguezsuarezw@gmail.com</p>
+                
+                <h4>Redes:</h4>
+                
+                <div class="social-buttons">
+                    <h5>YouTube:</h5>
+                    <a href="https://www.youtube.com/@melen6019" class="gold-button">Arte Diverso</a>
+                    <a href="https://www.youtube.com/@mestizoorgulloso" class="gold-button">Filosofía cínica</a>
+                    <a href="https://www.youtube.com/@historiascivi" class="gold-button">Historias de civilización</a>
+                </div>
+                
+                <div class="social-buttons">
+                    <h5>Tiktok:</h5>
+                    <a href="https://www.tiktok.com/@melen6019" class="gold-button">Arte Diverso</a>
+                    <a href="https://www.tiktok.com/@mestizoorgulloso" class="gold-button">Filosofía cínica</a>
+                    <a href="https://www.tiktok.com/@historias.de.civi" class="gold-button">Historias de civilización</a>
+                </div>
+                <div class="social-buttons">
+                  <h5>Facebook:</h5>
+                  <a href="https://www.facebook.com/profile.php?id=100079918567157" class="gold-button">Historias</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>¿Te gustó? Invítame un café ☕ <a href="https://ko-fi.com/wilferrodriguez"><img src="foto.jpg" alt="Foto" class="footer-image"> </a></p>
+    </footer>
+</body>
+</html>
